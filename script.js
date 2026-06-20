@@ -1,5 +1,5 @@
 
-// --- COLOR DATA ---
+
 const colorData = {
   '1': {
     sakuraText: `Ein Hauch Kirschblüte. Für Momente, die dir gehören.<br>Inspiriert von der japanischen Sakura-Tradition vereint diese Kollektion <strong>natürliche Baumwolle und Duft</strong> zu einem einzigen, bewussten Moment. Der feine Aroma von Reismilch und Kirschblüte umhüllt dich sanft – und erinnert dich mit jedem Atemzug daran, <strong>weiterzumachen</strong>. Durchatmen. Neu starten.`,
@@ -29,7 +29,7 @@ const colorData = {
   }
 };
 
-// --- DOT CLICK HANDLER ---
+
 document.querySelectorAll('.dot').forEach(dot => {
   dot.addEventListener('click', () => {
     document.querySelectorAll('.dot').forEach(d => d.classList.remove('active'));
@@ -53,7 +53,7 @@ document.querySelectorAll('.dot').forEach(dot => {
   });
 });
 
-// --- FADE-IN OBSERVER ---
+
 const fadeElements = document.querySelectorAll('.fade-section');
 
 const observer = new IntersectionObserver((entries) => {
@@ -71,7 +71,7 @@ const observer = new IntersectionObserver((entries) => {
 
 fadeElements.forEach(el => observer.observe(el));
 
-// --- FOOTER ACCORDION ---
+
 document.querySelectorAll('.accordion-toggle').forEach(btn => {
   btn.addEventListener('click', () => {
     const col = btn.closest('.footer-col.accordion');

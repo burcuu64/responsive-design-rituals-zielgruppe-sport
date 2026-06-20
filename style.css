@@ -1,5 +1,5 @@
 
-    /* --- RESET & BASE --- */
+
     *, *::before, *::after {
       box-sizing: border-box;
       margin: 0;
@@ -31,7 +31,7 @@
       line-height: 1.7;
     }
 
-    /* --- NAV --- */
+
     nav {
       position: sticky;
       top: 0;
@@ -59,7 +59,7 @@
       letter-spacing: 0.1em;
     }
 
-    /* --- HERO --- */
+
     .hero {
       position: relative;
       width: 100%;
@@ -75,7 +75,7 @@
       display: block;
     }
 
-    /* --- COLOR DOTS --- */
+
     .color-selector {
       display: flex;
       justify-content: center;
@@ -108,7 +108,7 @@
     .dot-5 { background: #32143B; }
     .dot-6 { background: #1E4636; }
 
-    /* --- HERO TEXT --- */
+   
     .hero-text {
       text-align: center;
       padding: 8px 20px 32px;
@@ -147,7 +147,7 @@
       color: #fefcf9;
     }
 
-    /* --- FADE-IN ANIMATION --- */
+ 
     .fade-section {
       opacity: 0;
       transform: translateY(30px);
@@ -159,7 +159,7 @@
       transform: translateY(0);
     }
 
-    /* --- KICKER + HEADLINE --- */
+
     .kicker-wrap {
       display: block;
       margin-bottom: 18px;
@@ -193,7 +193,7 @@
       margin-bottom: 20px;
     }
 
-    /* --- STORY SECTION --- */
+   
     .story-wrapper {
       padding: 0 60px;
       margin: 60px 0 0 0;
@@ -234,7 +234,7 @@
       line-height: 1.9;
     }
 
-    /* --- FABRIC SECTION --- */
+
     .fabric-wrapper {
       padding: 0 60px;
       margin: 60px 0 0 0;
@@ -275,14 +275,14 @@
       display: block;
     }
 
-    /* --- PRE-BANNER BRIDGE --- */
+
     .pre-banner-bridge {
       background: #F6F4F2;
       height: 48px;
       margin: 60px 0 0 0;
     }
 
-    /* --- BANNER --- */
+ 
     .banner-wrapper {
       padding: 0 60px;
       background: #F6F4F2;
@@ -304,7 +304,7 @@
       display: block;
     }
 
-    /* --- SAKURA TEXT --- */
+    
     .sakura-text-wrapper {
       background: #F6F4F2;
       width: 100%;
@@ -327,7 +327,7 @@
       line-height: 1.9;
     }
 
-    /* --- MOSAIC --- */
+
     .mosaic-wrapper {
       padding: 0 60px;
       background: #F6F4F2;
@@ -391,7 +391,7 @@
       margin: 0 auto;
     }
 
-    /* --- FINAL HERO --- */
+    
     .final-wrapper {
       padding: 0 60px;
       margin: 60px 0 0 0;
@@ -437,7 +437,7 @@
       margin-top: 10px;
     }
 
-    /* --- FOOTER --- */
+   
     footer {
       background: #1e1e1e;
       color: #bbb;
@@ -526,7 +526,7 @@
       display: none;
     }
 
-    /* --- MOBILE --- */
+   
     @media (max-width: 768px) {
       nav { padding: 14px 20px; }
       .hero { aspect-ratio: 3/4; }
